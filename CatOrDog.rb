@@ -9,3 +9,4 @@ def CatOrDog (a)
 	end
 	
 end
+puts "Do you like cats?"
