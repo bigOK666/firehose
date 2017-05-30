@@ -14,6 +14,7 @@ def foobar_pattern(target)
 		else
 			pattern << n
 		end
+		n = n + 1;
 	end
 
 	return pattern;
