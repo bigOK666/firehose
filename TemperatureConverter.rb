@@ -1,0 +1,3 @@
+def CecToFahren (a)
+	
+end
