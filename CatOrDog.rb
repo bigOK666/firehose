@@ -4,7 +4,7 @@ def CatOrDog (a)
 	elsif a == "no"
 		return "Dogs are better!"
 	else
-		return "Wrong answer!"
+		return "Please input yes or no in lower case"
 	end
 	
 end
