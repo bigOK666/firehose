@@ -11,8 +11,8 @@ def square (a)
 end
 
 def pythagorean_theroem(a, b)
-	a_square = a * a;
-	b_square = b * b;
+	a_square = square(a);
+	b_square = square(b);
 	c_square = a_square + b_square;
 
 	return Math.sqrt(c_square);
