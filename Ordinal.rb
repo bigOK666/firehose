@@ -11,4 +11,8 @@ def Suffix(a)
 	end
 end
 
-puts "Enter a number(integer)"
+puts "Enter a number:"
+number = gets.chomp;
+ordinal = number.to_i;
+suf = Suffix(ordinal);
+puts "#{number} is #{ordinal}#{suf}"
