@@ -10,3 +10,5 @@ def CatOrDog (a)
 	
 end
 puts "Do you like cats?"
+answer = gets.chomp
+puts CatOrDog(answer)
