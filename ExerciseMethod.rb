@@ -4,6 +4,6 @@ def LbsToKg (a)
 end
 
 puts "Enter the weight in Pounds"
-pound = gets.chromp.to_f
+pound = gets.chomp.to_f
 kg = LbsToKg(pound);
 puts "#{pound} Pounds is #{kg} KG"
