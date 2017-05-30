@@ -4,3 +4,4 @@ def LbsToKg (a)
 end
 
 puts "Enter the weight in Pounds"
+pound = gets.chromp.to_f
