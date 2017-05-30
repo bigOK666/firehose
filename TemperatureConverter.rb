@@ -2,3 +2,5 @@ def CecToFahren (a)
 	return a * 9 / 5 + 32;
 	
 end
+
+puts "Enter the temperature value in Celsius you want to convert:"
