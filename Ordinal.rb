@@ -4,11 +4,11 @@ def Suffix(a)
 	end
 
 	
-	if a % 10 == 1 
+	if a % 10 == 1 && a != 11
 		return "st"
-	elsif a % 10 == 2
+	elsif a % 10 == 2 && a != 12
 		return "nd"
-	elsif a % 10 == 3
+	elsif a % 10 == 3 && a != 13
 		return "rd"
 	else
 		return "th"
