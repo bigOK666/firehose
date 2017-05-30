@@ -5,6 +5,11 @@ end
 val = double (10)
 puts val
 
+def square (a)
+	return a * a;
+	
+end
+
 def pythagorean_theroem(a, b)
 	a_square = a * a;
 	b_square = b * b;
