@@ -19,5 +19,5 @@ def foobar_pattern(target)
 	return pattern;
 end
 
-
+puts foobar_pattern(total_item)
 
