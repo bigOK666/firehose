@@ -5,4 +5,5 @@ end
 
 puts "Enter the weight in Pounds"
 pound = gets.chromp.to_f
-KG = LbsToKg(pound);
+kg = LbsToKg(pound);
+puts "#{pound} Pounds is #{kg} KG"
