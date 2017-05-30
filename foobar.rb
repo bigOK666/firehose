@@ -9,7 +9,7 @@ def foobar_pattern(target)
 			pattern << "Foo"
 		elsif n % 5 == 0 && n % 3 != 0
 			pattern << "Bar"
-		elsif n % 3 == 0 && n % 5 != 0
+		elsif n % 3 == 0 && n % 5 == 0
 			pattern << "Foobar"
 		else
 			pattern << n
@@ -20,5 +20,5 @@ def foobar_pattern(target)
 	return pattern;
 end
 
-puts foobar_pattern(total_item)
+puts foobar_pattern(total_item).inspect
 
