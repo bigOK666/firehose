@@ -1,8 +1,10 @@
 def CatOrDog (a)
 	if a == "yes"
 		return "Ken does, too"
-	else if a == "no"
+	elseif a == "no"
 		return "Dogs are better!"
+	else
+		return "Wrong answer!"
 		
 	end
 	
