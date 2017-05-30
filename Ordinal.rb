@@ -10,3 +10,5 @@ def Suffix(a)
 		return "th"
 	end
 end
+
+puts "Enter a number(integer)"
