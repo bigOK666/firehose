@@ -1,6 +1,10 @@
 def Suffix(a)
+	if a < 0
+		a = -a
+	end
+
 	
-	if a % 10 == 1
+	if a % 10 == 1 
 		return "st"
 	elsif a % 10 == 2
 		return "nd"
