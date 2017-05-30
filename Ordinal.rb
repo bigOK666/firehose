@@ -1,10 +1,10 @@
 def Suffix(a)
-	LastDigit = a % 10
-	if LastDigit == 1
+	
+	if a % 10 == 1
 		return "st"
-	elsif LastDigit == 2
+	elsif a % 10 == 2
 		return "nd"
-	elsif LastDigit == 3
+	elsif a % 10 == 3
 		return "rd"
 	else
 		return "th"
